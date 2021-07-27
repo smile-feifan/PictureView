@@ -275,9 +275,13 @@ async function request () {
 moments.js的使用
 
 ### 在Hbuilder中引用moment.js  [moments.js官网](http://momentjs.cn/)
-
+- 推荐使用  moment-多语言支持.min.js
+- 这样可以直接使用  moment.locale(String)  来设置语言环境
 ```js
 import moment from "@/utils/moment.js"
+//默认是中文格式
+//使用中文格式
+moment.locale('zh-cn');
 // 月份模块
 this.months = res.res.homepage[2];
 // 将时间戳 改成 18号/月 moment.js
