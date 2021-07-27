@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "图片详情页",
+  "usingComponents": {
+    "swiper-action": "/components/swiper-action/swiper-action"
+  }
+}

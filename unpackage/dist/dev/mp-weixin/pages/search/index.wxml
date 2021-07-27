@@ -1,0 +1,1 @@
+<view class="search"><view class="search_input"><input type="text" value="" placeholder="请输入要搜索的图片" data-event-opts="{{[['input',[['handleInput',['$event']]]]]}}" bindinput="__e"/></view><button size="mini" plain="{{true}}">搜索</button></view>

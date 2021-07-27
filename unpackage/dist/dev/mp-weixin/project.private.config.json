@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "专辑详情页",
+          "pathName": "pages/album/index",
+          "query": "id=51c037e448d5b921e72447a7",
+          "scene": null
+        },
+        {
+          "name": "首页推荐",
+          "pathName": "pages/home/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "图片详情页",
+          "pathName": "pages/img-detail/index",
+          "query": "__id__=1",
+          "scene": null
+        },
+        {
+          "name": "视频",
+          "pathName": "pages/video/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "搜索",
+          "pathName": "pages/search/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+			"path": "pages/video-play/index",
+			"style": {
+				"navigationBarTitleText": "视频播放"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/img-category/index",
+			"style": {
+				"navigationBarTitleText": "图片分类"
+			}
+		},
+		{
+			"path": "pages/album/index",
+			"style": {
+				"navigationBarTitleText": "专辑详情页"
+			}
+		},
+		{
+			"path": "pages/img-detail/index",
+			"style": {
+				"navigationBarTitleText": "图片详情页"
+			}
+		},
+		{
+			"path": "pages/horizontal/index",
+			"style": {
+				"navigationBarTitleText": "横屏"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+		],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "手机壁纸大全",
+		"navigationBarBackgroundColor": "#000"
+	},
+	"tabBar":{  
+	   // 字体图标颜色
+	    "color": "#999",
+	   //被选中的字体图标
+	    "selectedColor":"#ff2d4a",
+	   //tabBar的背景颜色
+	     "backgroundColor": "#fafafa",
+	   //tabBar的位置
+	     "position": "bottom",
+	   //tabBar边框颜色
+	     "borderStyle": "black",
+	   //至少要有两个！！！
+	     "list": [
+				 { 
+	       //页面路径（相对路径）
+	      "pagePath": "pages/home/index",
+	       //图标下面的文字内容
+	      "text": "首页",
+	       //字体图标
+	      "iconPath": "./static/icon/_home.png",
+	       //被选中后的字体图标
+	      "selectedIconPath": "./static/icon/home.png"
+	    },
+			{
+			   //页面路径（相对路径）
+			  "pagePath": "pages/horizontal/index",
+			   //图标下面的文字内容
+			  "text": "横屏",
+			   //字体图标
+			  "iconPath": "./static/icon/_img.png",
+			   //被选中后的字体图标
+			  "selectedIconPath": "./static/icon/img.png"
+			},
+	    {
+	      "pagePath": "pages/video/index",
+	      "text": "视频",
+	      "iconPath": "./static/icon/_videocamera.png",
+	      "selectedIconPath": "./static/icon/videocamera.png"
+	    },
+	    {
+	      "pagePath": "pages/search/index",
+	      "text": "搜索",
+	      "iconPath": "./static/icon/_search.png",
+	      "selectedIconPath": "./static/icon/search.png"
+	    },
+	    {
+	      "pagePath": "pages/mine/index",
+	      "text": "我的",
+	      "iconPath": "./static/icon/_my.png",
+	      "selectedIconPath": "./static/icon/my.png"
+	    }
+	  ]
+	} 
+}

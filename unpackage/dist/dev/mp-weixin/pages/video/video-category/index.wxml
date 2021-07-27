@@ -1,0 +1,1 @@
+<view class="video_cate"><block wx:for="{{cateObj}}" wx:for-item="item" wx:for-index="index" wx:key="id"><navigator class="cate_item" url="{{'/pages/img-category/index?id='+item.id}}"><image src="{{item.cover}}" mode="widthFix"></image><view class="cate_name">{{''+item.name+''}}</view></navigator></block></view>
